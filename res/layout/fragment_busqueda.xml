@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="15dp"
+        android:text="Buscar"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Provincia"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gray_line" />
+
+    <Spinner
+        android:id="@+id/SpnProvincia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Localidad"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gray_line" />
+
+    <Spinner
+        android:id="@+id/SpnLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Tipo de acto"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gray_line" />
+
+    <Spinner
+        android:id="@+id/SpnTipoActo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Activar búsqueda por fecha"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/toogleFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="ToggleButton" />
+
+        <Spinner
+            android:id="@+id/spnDia"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+           />
+
+        <Spinner
+            android:id="@+id/spnMes"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spnAno"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:text="Buscar (futura implementación)" />
+
+    <Button
+        android:id="@+id/btnListado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:text="Buscar (Funciona)" />
+
+</LinearLayout>

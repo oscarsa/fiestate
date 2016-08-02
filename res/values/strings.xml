@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Navigation -->    
+    <string name="header">Usuario</string>    
+        
+    <string name="app_name">Fiestate</string>
+    <string name="clear">Fiestate</string>
+    <string name="add">Añadir</string>
+    <string name="search">Buscar</string>
+    <string name="update">Actualizar</string>
+        
+    <string name="drawer_open">Open drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Close</string>  
+    
+    <string name="fragment_my_apps">Fiestate (beta)</string>  
+    
+</resources >

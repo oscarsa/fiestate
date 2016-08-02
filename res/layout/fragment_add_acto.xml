@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spnAddProvincia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+    <Spinner
+        android:id="@+id/spnAddLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+    <Spinner
+        android:id="@+id/spnAddTipo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/addTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Titulo del acto" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/addDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Breve descripción" />
+
+    <EditText
+        android:id="@+id/addFecha"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Fecha (2014-12-31)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/addHora"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Hora (24:00:00)"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="Añadir acto" />
+
+</LinearLayout>
